@@ -310,7 +310,7 @@ img{
   border-radius: 999px;
   font: 600 .72rem/1 var(--second-font);
   color:#fff;
-  background: #2600AF;
+  background: #17327B;
   backdrop-filter: blur(6px);
   letter-spacing:.02em;
   z-index:3;
@@ -653,7 +653,7 @@ img{
 /*=============== SCROLL UP ===============*/
 .scrollup{
   position: fixed;
-  right: 1rem;
+  right: 0.25rem;
   bottom: -50%;
   background-color: hsla(0, 0%, 100%, .1);
   padding: 6px;
@@ -672,6 +672,7 @@ img{
 
 /* Show scroll-up */
 .show-scroll{
+  
   bottom: 3rem;
 }
 
