@@ -442,21 +442,21 @@ img{
   padding-left: 1rem;
 }
 
-.project__location{
+.project__due-date{
   display: inline-flex;
   align-items: center;
   column-gap: .25rem;
   font-size: var(--small-font-size);
   font-family: var(--second-font);
   font-weight: 500;
-  padding-left: 1rem;
+  padding-left: 0.75rem;
 }
 
-.project__location i{
-  font-size: 1rem;
+.project__due-date i{
+  font-size: 1.25rem;
 }
 
-.project__image:hover .popular__img{
+.project__image:hover .project__img{
   transform: scale(1.2);
 }
 
@@ -515,46 +515,32 @@ img{
 }
 
 /*=============== JOIN ===============*/
-.join__container{
+.final-project__container{
   row-gap: 3rem;
   padding-bottom: 2.5rem;
 }
 
-.join__data{
+.final-project__data{
   text-align: center;
   
 }
 
-.join__description{
+.final-project__description{
   margin-bottom: 2rem;
 }
 
-.join__form{
-  display: grid;
-  row-gap: 1rem;
-}
-
-.join__input{
-  padding: 1.25rem 1rem;
-  background-color: var(--container-color);
-}
-
-.join__button{
-  cursor: pointer;
-}
-
-.join__image{
+.final-project__image{
   position: relative;
   justify-self: center;
   overflow: hidden;
 }
 
-.join__img{
+.final-project__img{
   width: 300px;
   transition: transform .4s;
 }
 
-.join__shadow{
+.final-project__shadow{
   position: absolute;
   top: 0;
   left: 0;
@@ -565,7 +551,7 @@ img{
               hsl(0, 0%, 0%) 125%);
 }
 
-.join__image:hover .join__img{
+.final-project__image:hover .final-project__img{
   transform: scale(1.2);
 }
 
