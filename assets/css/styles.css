@@ -460,6 +460,60 @@ img{
   transform: scale(1.2);
 }
 
+/*=============== TIMELINE ===============*/
+.timeline::before{
+  content: '';
+  position: absolute;
+  top: 4rem;
+  height: calc(100% - 4rem);
+  width: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  background-color: var(--text-color);
+}
+.timeline ul li{
+  width: 50%;
+  margin-bottom: 50px;
+  position: relative;
+}
+.timeline ul li:nth-child(odd){
+  float: left;
+  clear: right;
+  transform: translateX(-30px);
+  border-radius: 20px 0px 20px 20px;
+}
+.timeline ul li:nth-child(even){
+  float: right;
+  clear: left;
+  transform: translateX(30px);
+  border-radius: 0px 20px 20px 20px;
+}
+.timeline ul li::after{
+  content: '';
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  background-color: var(--text-color);
+  border-radius: 50%;
+  top: 0;
+}
+.timeline ul li:nth-child(odd)::after{
+  transform: translate(50%, -50%);
+  right: -30px;
+}
+.timeline ul li:nth-child(even)::after{
+  transform: translate(-50%, -50%);
+  left: -30px;
+}
+.timeline ul li:hover::after{
+  background-color: #66FF00;
+}
+.timeline-content .timeline-date{
+  position: absolute;
+  top: -30px;
+}
+
 /*=============== EXPLORE ===============*/
 .explore{
   position: relative;
@@ -741,61 +795,6 @@ img{
   }
   .footer__copy{
     order: -1;
-  }
-
-
-  /* PAGES */
-  .timeline::before{
-    content: '';
-    position: absolute;
-    top: 4rem;
-    height: calc(100% - 4rem);
-    width: 2px;
-    left: 50%;
-    transform: translateX(-50%);
-
-    background-color: var(--text-color);
-  }
-  .timeline ul li{
-    width: 50%;
-    margin-bottom: 50px;
-    position: relative;
-  }
-  .timeline ul li:nth-child(odd){
-    float: left;
-    clear: right;
-    transform: translateX(-30px);
-    border-radius: 20px 0px 20px 20px;
-  }
-  .timeline ul li:nth-child(even){
-    float: right;
-    clear: left;
-    transform: translateX(30px);
-    border-radius: 0px 20px 20px 20px;
-  }
-  .timeline ul li::after{
-    content: '';
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    background-color: var(--text-color);
-    border-radius: 50%;
-    top: 0;
-  }
-  .timeline ul li:nth-child(odd)::after{
-    transform: translate(50%, -50%);
-    right: -30px;
-  }
-  .timeline ul li:nth-child(even)::after{
-    transform: translate(-50%, -50%);
-    left: -30px;
-  }
-  .timeline ul li:hover::after{
-    background-color: #66FF00;
-  }
-  .timeline-content .timeline-date{
-    position: absolute;
-    top: -30px;
   }
 }
 
