@@ -742,10 +742,13 @@ img{
   .footer__copy{
     order: -1;
   }
+
+
   /* PAGES */
   .timeline::before{
     content: '';
     position: absolute;
+    top: 4rem;
     height: 100%;
     width: 2px;
     left: 50%;
@@ -787,7 +790,7 @@ img{
     left: -30px;
   }
   .timeline ul li:hover::after{
-    background-color: #8A2BE2;
+    background-color: #66FF00;
   }
   .timeline-content .timeline-date{
     position: absolute;
