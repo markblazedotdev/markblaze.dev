@@ -749,10 +749,11 @@ img{
     content: '';
     position: absolute;
     top: 4rem;
-    height: 100%;
+    height: calc(100% - 4rem);
     width: 2px;
     left: 50%;
     transform: translateX(-50%);
+
     background-color: var(--text-color);
   }
   .timeline ul li{
