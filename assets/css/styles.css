@@ -469,13 +469,14 @@ img{
   width: 2px;
   left: 50%;
   transform: translateX(-50%);
-
   background-color: var(--text-color);
 }
 .timeline ul li{
   width: 50%;
+  margin-top: 4rem;
   margin-bottom: 50px;
   position: relative;
+  min-height: 120px;
 }
 .timeline ul li:nth-child(odd){
   float: left;
@@ -509,9 +510,13 @@ img{
 .timeline ul li:hover::after{
   background-color: #66FF00;
 }
+
 .timeline-content .timeline-date{
-  position: absolute;
-  top: -30px;
+  position: static;
+  margin-bottom: 0.5rem;
+  display: block;
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
 }
 
 /*=============== EXPLORE ===============*/

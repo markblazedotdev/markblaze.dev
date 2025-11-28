@@ -82,6 +82,10 @@ sr.reveal('.home__card', {delay: 600, distance: '100px', interval: 100})
 sr.reveal('.about__data, .final-project__image', {origin: 'right'})
 sr.reveal('.about__image, .final-project__data', {origin: 'left'})
 sr.reveal('.project__card', {interval: 200})
+sr.reveal('.timeline', {origin: 'top', distance: '40px'});
+sr.reveal('.timeline-content', {interval: 150, origin: 'bottom'});
+sr.reveal('.timeline::before', {duration: 2000, distance: '0px', opacity: 0});
+sr.reveal('.sr-timeline', {opacity: 0, duration: 2000});
 
 /*=============== AUTO COPYRIGHT YEAR UPDATE ===============*/
 document.getElementById("copyright-year").innerHTML = new Date().getFullYear();
