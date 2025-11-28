@@ -465,11 +465,11 @@ img{
 .final-project__title {
   font-size: var(--h1-font-size); /* same visual weight as section__title */
   margin-bottom: 1.5rem;
-  padding-left: 1rem;
+  padding-left: 0.75rem;
 }
 
 .final-project__data .project__due-date{
-  padding-left: 1rem;
+  padding-left: 0.60rem;
 }
 
 .final-project__description{
@@ -506,8 +506,8 @@ img{
 .timeline::before{
   content: '';
   position: absolute;
-  top: 4rem;
-  height: calc(100% - 4rem);
+  top: 15rem;
+  height: calc(100% - 15rem);
   width: 2px;
   left: 50%;
   transform: translateX(-50%);
@@ -888,10 +888,6 @@ img{
     left: 1.5rem;
     bottom: 1.5rem;
   }
-  
-  .button{
-    column-gap: 1.5rem;
-  }
 
   .about__container{
     grid-template-columns: 400px 460px;
@@ -977,7 +973,7 @@ img{
 */
 .container-timeline{
   min-height: 100vh;
-  margin-top: 5rem;
+  margin-top: 0rem;
   margin-bottom: 5rem;
   display: flex;
   align-items: center;
