@@ -116,8 +116,6 @@ img{
   padding-block: 5rem 1rem;
 }
 
-
-
 .section__title{
   text-align: center;
   font-size: var(--h1-font-size);
@@ -453,14 +451,25 @@ img{
 
 .final-project__data{
   text-align: left;
-  padding-left: 1.85rem;
+  padding-left: 1.25rem;
+}
+
+.final-project__data .section__title{
+  padding-left: 1rem;
+}
+
+.final-project__data .project__due-date{
+  padding-left: 0.75rem;
 }
 
 .final-project__title {
   font-size: var(--h1-font-size); /* same visual weight as section__title */
-  text-align: left;
-  margin-left: 2rem;
   margin-bottom: 1.5rem;
+  padding-left: 1rem;
+}
+
+.final-project__data .project__due-date{
+  padding-left: 1rem;
 }
 
 .final-project__description{
