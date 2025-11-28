@@ -1,6 +1,7 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Poppins:wght@400;500&display=swap');
 
+
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem;
@@ -48,6 +49,7 @@
     --smaller-font-size: .813rem;
   }  
 }
+
 
 /*=============== BASE ===============*/
 *{
@@ -98,6 +100,7 @@ img{
   height: auto;
 }
 
+
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container{
   max-width: 1120px;
@@ -113,6 +116,8 @@ img{
   padding-block: 5rem 1rem;
 }
 
+
+
 .section__title{
   text-align: center;
   font-size: var(--h1-font-size);
@@ -122,6 +127,7 @@ img{
 .main{
   overflow: hidden; /* For animation ScrollReveal */
 }
+
 
 /*=============== HEADER & NAV ===============*/
 .header{
@@ -237,6 +243,7 @@ img{
   width: 70%;
 }
 
+
 /*=============== HOME ===============*/
 .home{
   position: relative;
@@ -344,33 +351,11 @@ img{
   transform: scale(1.2);
 }
 
-/*=============== BUTTON ===============*/
-.button{
-  background-color: hsla(0, 0%, 100%, .2);
-  padding: 1.25rem 1.5rem;
-  color: var(--title-color);
-  display: inline-flex;
-  align-items: center;
-  column-gap: .5rem;
-  font-family: var(--second-font);
-  font-weight: var(--font-semi-bold);
-  backdrop-filter: blur(24px);
-  -webkit-backdrop-filter: blur(24px); /* For safari */
-}
-
-.button i{
-  font-size: 1.25rem;
-  transition: transform .4s;
-  font-weight: initial;
-}
-
-.button:hover i{
-  transform: translateX(.25rem);
-}
 
 /*=============== ABOUT ===============*/
 .about__container{
   row-gap: 3rem;
+  margin-top: 2rem;
 }
 
 .about__data{
@@ -449,7 +434,7 @@ img{
   font-size: var(--small-font-size);
   font-family: var(--second-font);
   font-weight: 500;
-  padding-left: 0.75rem;
+  padding-left: 0.85rem;
 }
 
 .project__due-date i{
@@ -459,6 +444,54 @@ img{
 .project__image:hover .project__img{
   transform: scale(1.2);
 }
+
+/*=============== FINAL PROJECT ===============*/
+.final-project__container{
+  row-gap: 1rem;
+  padding-bottom: 2.5rem;
+}
+
+.final-project__data{
+  text-align: left;
+  padding-left: 1.85rem;
+}
+
+.final-project__title {
+  font-size: var(--h1-font-size); /* same visual weight as section__title */
+  text-align: left;
+  margin-left: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.final-project__description{
+  margin-bottom: 2rem;
+}
+
+.final-project__image{
+  position: relative;
+  justify-self: center;
+  overflow: hidden;
+}
+
+.final-project__img{
+  transition: transform .4s;
+}
+
+.final-project__shadow{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg,
+              hsla(0, 0%, 0%, 0) 50%,
+              hsl(0, 0%, 0%) 125%);
+}
+
+.final-project__image:hover .final-project__img{
+  transform: scale(1.2);
+}
+
 
 /*=============== TIMELINE ===============*/
 .timeline::before{
@@ -576,6 +609,7 @@ img{
   align-items: center;
   justify-content: center;
   column-gap: .5rem;
+  padding-bottom: 1rem;
 }
 
 .explore__perfil{
@@ -588,45 +622,6 @@ img{
   color: var(--title-color);
 }
 
-/*=============== FINAL PROJECT ===============*/
-.final-project__container{
-  row-gap: 3rem;
-  padding-bottom: 2.5rem;
-}
-
-.final-project__data{
-  text-align: center;
-  
-}
-
-.final-project__description{
-  margin-bottom: 2rem;
-}
-
-.final-project__image{
-  position: relative;
-  justify-self: center;
-  overflow: hidden;
-}
-
-.final-project__img{
-  transition: transform .4s;
-}
-
-.final-project__shadow{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(180deg,
-              hsla(0, 0%, 0%, 0) 50%,
-              hsl(0, 0%, 0%) 125%);
-}
-
-.final-project__image:hover .final-project__img{
-  transform: scale(1.2);
-}
 
 /*=============== FOOTER ===============*/
 .footer{
