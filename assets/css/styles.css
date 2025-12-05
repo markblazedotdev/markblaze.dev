@@ -662,7 +662,7 @@ img{
 
 .footer__data{
   grid-template-columns: repeat(2, max-content);
-  gap: 2.5rem 3.5rem;
+  gap: 2.5rem 2.5rem;
 }
 
 .footer__title{
