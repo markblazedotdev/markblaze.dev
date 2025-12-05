@@ -627,7 +627,7 @@ img{
   align-items: center;
   justify-content: center;
   column-gap: .5rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 .explore__perfil{
@@ -636,7 +636,7 @@ img{
 }
 
 .ri-mail-line{
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .explore__name{
   font-size: var(--small-font-size);
@@ -651,6 +651,9 @@ img{
 }
 
 .footer__content{
+  display: grid;
+  justify-content: center;
+  text-align: left;
   row-gap: 3.5rem;
 }
 
@@ -664,8 +667,11 @@ img{
 }
 
 .footer__data{
+  display: grid;
   grid-template-columns: repeat(2, max-content);
   gap: 2.5rem 2.5rem;
+  justify-content: center;
+  margin-inline: auto;
 }
 
 .footer__title{
