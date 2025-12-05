@@ -627,7 +627,7 @@ img{
   align-items: center;
   justify-content: center;
   column-gap: .5rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 
 .explore__perfil{
@@ -635,6 +635,9 @@ img{
   border-radius: 50%;
 }
 
+.ri-mail-line{
+  font-size: 3rem;
+}
 .explore__name{
   font-size: var(--small-font-size);
   color: var(--title-color);
