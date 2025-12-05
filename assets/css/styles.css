@@ -315,7 +315,7 @@ img{
   border-radius: 999px;
   font: 600 .72rem/1 var(--second-font);
   color:#fff;
-  background: #17327B;
+  background: #000;
   backdrop-filter: blur(6px);
   letter-spacing:.02em;
   z-index:3;
