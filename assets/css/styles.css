@@ -699,10 +699,10 @@ img{
 }
 
 .footer__group{
-  margin-top: 2rem;
+  margin-top: 1rem;
   flex-direction: column;
   align-items: center;
-  row-gap: 2rem;
+  row-gap: 1rem;
 }
 
 .footer__social{
