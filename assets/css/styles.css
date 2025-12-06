@@ -654,7 +654,7 @@ img{
   display: grid;
   justify-content: center;
   text-align: left;
-  row-gap: 3.5rem;
+  row-gap: 2rem;
 }
 
 .footer__logo{
@@ -663,7 +663,7 @@ img{
   font-size: var(--h2-font-size);
   font-family: var(--second-font);
   font-weight: var(--font-semi-bold);
-  margin-bottom: 1rem;
+  margin-bottom: 0.25rem;
 }
 
 .footer__data{
