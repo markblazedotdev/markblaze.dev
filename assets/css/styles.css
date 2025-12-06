@@ -617,9 +617,9 @@ img{
 
 .explore__content{
   position: relative;
-  padding-top: 16rem;
+  padding-top: 20rem;
   text-align: center;
-  row-gap: 2.5rem;
+  row-gap: 1rem;
 }
 
 .explore__user{
@@ -638,6 +638,7 @@ img{
 .ri-mail-line{
   font-size: 2rem;
 }
+
 .explore__name{
   font-size: var(--small-font-size);
   color: var(--title-color);
